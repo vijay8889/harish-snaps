@@ -1,0 +1,102 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    background: #eee;
+    height: auto;
+}
+h1{
+    font-weight: 200;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0;
+    text-align-last: center;
+    border: palegoldenrod;
+}
+h2{
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0;
+    text-align-last: center;
+    border: olive;
+}
+img{
+    display: block;
+    width: 100%;
+}
+main{
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0,0,0,0.1),
+    -30px 0px 40px rgba(0,0,0,0.1);
+}
+#section{
+    background: #fff;
+}
+#section-text {
+    display: flex;
+    flex:0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+#section-image {
+   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 10%;
+    flex: 0 1 60vw;
+    margin: 0;
+    background-color: pink;
+}
+#section-text h2 {
+    colour: #888f;
+}
+.btn{
+    padding: 0.5rem 2rem;
+    border: 1px #ccc solid;
+    display: inline-block;
+    margin: 2rem 0 0;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #333;
+    transition: background 500ms ease;
+   
+}
+.btn:hover  {
+    background: #f4f4f4;
+}
+#header {
+    padding: 1.5rem;
+    text-align: center;
+    background: #333;
+    color: #fff;
+
+}
+#header h2{
+    border-left: dotted 1px #fff;
+    border-right: dotted 1px #fff;
+    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+}
+.caption{
+    padding: 0.8rem;
+    text-align: centre;
+    
+}
+footer{
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    colour:  #333;
+}
+footer h3{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
